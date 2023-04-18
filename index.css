@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/* navbar qismi */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    padding-top: 50px;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin-top: -16px;
+}
+
+.navbar-list li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #33323D;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-list li:hover {
+    color: #5FB4A2;
+}
+
+/* header qismi */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.header-box {
+    width: 500px;
+    height: 450px;
+}
+
+.header-box img {
+    display: flex;
+    width: 100%;
+}
+
+.header-bg {
+    display: flex;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(97, 92, 92);
+}
+
+.header-demo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-demo h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+
+.header-demo p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin: 18px 0;
+}
+
+.header-demo button {
+    padding: 8px 16px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #33323D;
+    cursor: pointer;
+}
+
+/* sectrion start  */
+
+
+.top h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    /* identical to box height, or 105% */
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+
+}
+
+.top .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+}
+
+.top p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    /* or 200% */
+
+
+    color: #33323D;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.top button {
+    padding: 8px 16px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #33323D;
+    cursor: pointer;
+}
+
+.top .img {
+    width: 500px;
+    height: 500px;
+}
+
+.top img {
+    display: flex;
+    width: 100%;
+    margin-left: 150px;
+}
+
+section {
+    margin-top: 50px;
+    display: flex;
+}
+
+span {
+    width: 400px;
+}
+/* main start  */
+main {
+    margin-top: 100px;
+}
+
+main .container {
+    display: flex;
+}
+
+main .header-demo {
+    margin-left: 150px;
+}
+
+.bottom {
+    margin-top: 100px;
+}
+/* main end  */
+/* info strt  */
+
+.info {
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    margin-top: 96px;
+}
+
+.info p {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    /* or 105% */
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+
+}
+
+.info .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info button {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #33323D;
+    cursor: pointer;
+    width: 162px;
+    height: 48px;
+}
+
+.info button a {
+    color: #000;
+}
+
+.info .as {
+    background-color: #33323D;
+    width: 200px;
+    height: 1px;
+    margin-top: 50px;
+}
+
+.center ul li {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+ul li a {
+    color: #fff;
+}
+
+ul li a:hover {
+    color: #ffd700;
+    text-decoration: none;
+    transition: 500ms ease;
+}
+
+
+button:hover {
+    transition: 1000ms ease;
+    color: #fff;
+    background-color: #000;
+}
+
+button a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* info end  */
+/* footer start  */
+
+footer {
+    margin-top: 100px;
+    width: 100%;
+    background:black;
+}
+
+footer .menu {
+    padding-top: 33px;
+}
+
+.fa {
+    color: #fff;
+    margin-left: 15px;
+}
+
+i:hover {
+    color: #ffd700;
+    transition: 500ms ease;
+}
+.left img{
+    color: #fff;
+}
